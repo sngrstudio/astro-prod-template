@@ -1,0 +1,16 @@
+---
+import '~/styles/global.scss'
+import Head from '~/components/site/head.astro'
+
+const title = "SNGR Studio's Base Template"
+---
+
+<html lang="id">
+  <Head>
+    <title>{title}</title>
+    <slot name="head" />
+  </Head>
+  <body>
+    <slot />
+  </body>
+</html>
