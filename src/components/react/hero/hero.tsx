@@ -12,9 +12,9 @@ const Hero: FC = () => (
           Font Magician plugin.
         </p>
         <p className="text-center italic text-sm">
-          a {' '}
+          a{' '}
           <a className="link-hover" href="http://sngr.studio/">
-            SNGR Studio 
+            SNGR Studio
           </a>{' '}
           tool. (c) {new Date().getFullYear()}
         </p>
