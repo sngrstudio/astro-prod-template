@@ -1,0 +1,8 @@
+[build]
+command = "yarn build"
+publish = "dist"
+
+[dev]
+framework = "astro"
+command = "yarn dev"
+autoLaunch = false

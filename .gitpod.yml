@@ -1,2 +1,6 @@
 image:
   file: .gitpod.dockerfile
+
+tasks:
+  - init: yarn
+  - command: ntl dev
