@@ -7,9 +7,12 @@ const Hero: FC = () => (
       <div className="max-w-md">
         <h1 className={style.h1}>A template for production</h1>
         <p className="text-center mb-2">
-          The template is created using Astro and a pinch of React. Batteries
-          included: SASS, TailwindCSS + DaisyUI, PostCSS with Autoprefixer and
-          Font Magician plugin.
+          The template is created using{' '}
+          <a className="link-hover" href="https://astro.build" rel="nofollow">
+            Astro
+          </a>{' '}
+          and a pinch of React. Batteries included: SASS, TailwindCSS + DaisyUI,
+          PostCSS with Autoprefixer and Font Magician plugin.
         </p>
         <p className="text-center italic text-sm">
           a{' '}
