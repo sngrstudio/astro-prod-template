@@ -92,10 +92,10 @@
   dependencies:
     prismjs "^1.28.0"
 
-"@astrojs/react@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/react/-/react-1.0.0.tgz#44f270e45a1608f623275c89d52fd1617315e2bf"
-  integrity sha512-CHJQ1dwjpYOTunioi02yWKdSxN/YeLP1vI70Xq+AqhcTmcmdbCMwbtYOEVwIK1k/AJmLItsJMcrsTfRoQU+Z+Q==
+"@astrojs/react@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/react/-/react-1.1.2.tgz#52d18339255457023ab5a1a33b911480eb6b0aa5"
+  integrity sha512-qGXI7SeKauJoeChb5vcwFELVMyth5kmakgcb6vm9+PBXNauSo983b9qOYd1ptB+kTK+eYGmezGh/YT3Rjhggag==
   dependencies:
     "@babel/core" ">=7.0.0-0 <8.0.0"
     "@babel/plugin-transform-react-jsx" "^7.17.12"
