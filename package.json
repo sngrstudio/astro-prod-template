@@ -14,21 +14,21 @@
     "check": "prettier --check ."
   },
   "dependencies": {
-    "@astrojs/react": "^1.1.2",
-    "astro": "^1.2.2",
-    "astro-icon": "^0.7.3",
-    "autoprefixer": "^10.4.8",
-    "daisyui": "^2.27.0",
-    "postcss": "^8.4.16",
-    "postcss-font-magician": "^3.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "sass": "^1.54.5",
-    "tailwindcss": "^3.1.8"
+    "@astrojs/react": "1.2.1",
+    "astro": "1.5.2",
+    "astro-icon": "0.7.3",
+    "autoprefixer": "10.4.12",
+    "daisyui": "2.33.0",
+    "postcss": "8.4.18",
+    "postcss-font-magician": "3.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "1.55.0",
+    "tailwindcss": "3.2.1"
   },
   "devDependencies": {
-    "npm-run-all": "^4.1.5",
-    "prettier": "^2.7.1",
-    "prettier-plugin-astro": "^0.5.0"
+    "npm-run-all": "4.1.5",
+    "prettier": "2.7.1",
+    "prettier-plugin-astro": "0.5.5"
   }
 }
