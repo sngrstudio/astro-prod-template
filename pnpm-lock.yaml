@@ -5,7 +5,7 @@ specifiers:
   astro: 1.5.2
   astro-icon: 0.7.3
   autoprefixer: 10.4.12
-  daisyui: 2.33.0
+  daisyui: 2.38.0
   npm-run-all: 4.1.5
   postcss: 8.4.18
   postcss-font-magician: 3.0.0
@@ -21,7 +21,7 @@ dependencies:
   astro: 1.5.2_sass@1.55.0
   astro-icon: 0.7.3
   autoprefixer: 10.4.12_postcss@8.4.18
-  daisyui: 2.33.0_xkowlklhtk6sfvtndbucb3hfiy
+  daisyui: 2.38.0_xkowlklhtk6sfvtndbucb3hfiy
   postcss: 8.4.18
   postcss-font-magician: 3.0.0_postcss@8.4.18
   react: 18.2.0
@@ -1200,8 +1200,8 @@ packages:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
     dev: false
 
-  /daisyui/2.33.0_xkowlklhtk6sfvtndbucb3hfiy:
-    resolution: {integrity: sha512-NviwGs9oC9NW7IEZiLexHtxkpzP38AKxb9GTUCqUa0qoU8NHKQGqJUzQWZwWSZakU57KsQLblFVe0xMhqw4TlA==}
+  /daisyui/2.38.0_xkowlklhtk6sfvtndbucb3hfiy:
+    resolution: {integrity: sha512-/AIT/XrNY8QLpXnoEXU7aFv5NRU7R3NSpg13ujs+hkTlDlR8pkjsGMqTRKvMf7orCX9833VLFAFJw+CH4EORvA==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
