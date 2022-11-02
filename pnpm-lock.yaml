@@ -4,6 +4,8 @@ specifiers:
   '@astrojs/react': 1.2.2
   '@iconify/json': ^2.1.132
   '@svgr/core': ^6.5.1
+  '@types/node': ^18.11.9
+  '@types/react': ^18.0.24
   astro: 1.6.2
   astro-icon: 0.8.0
   autoprefixer: 10.4.13
@@ -17,6 +19,7 @@ specifiers:
   react-dom: 18.2.0
   sass: 1.55.0
   tailwindcss: 3.2.1
+  typescript: ^4.8.4
   unplugin-icons: ^0.14.13
 
 dependencies:
@@ -36,9 +39,12 @@ dependencies:
   unplugin-icons: 0.14.13_@svgr+core@6.5.1
 
 devDependencies:
+  '@types/node': 18.11.9
+  '@types/react': 18.0.24
   npm-run-all: 4.1.5
   prettier: 2.7.1
   prettier-plugin-astro: 0.7.0
+  typescript: 4.8.4
 
 packages:
 
@@ -791,6 +797,10 @@ packages:
       '@types/unist': 2.0.6
     dev: false
 
+  /@types/node/18.11.9:
+    resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==}
+    dev: true
+
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
     dev: false
@@ -801,7 +811,6 @@ packages:
 
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
-    dev: false
 
   /@types/react-dom/18.0.8:
     resolution: {integrity: sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==}
@@ -815,7 +824,6 @@ packages:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
       csstype: 3.1.1
-    dev: false
 
   /@types/resolve/1.20.2:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -823,7 +831,6 @@ packages:
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
-    dev: false
 
   /@types/unist/2.0.6:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
@@ -1384,7 +1391,6 @@ packages:
 
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
-    dev: false
 
   /daisyui/2.38.0_lycaqaeny3mp632atgvyvqdgwe:
     resolution: {integrity: sha512-/AIT/XrNY8QLpXnoEXU7aFv5NRU7R3NSpg13ujs+hkTlDlR8pkjsGMqTRKvMf7orCX9833VLFAFJw+CH4EORvA==}
@@ -4581,7 +4587,6 @@ packages:
     resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
-    dev: false
 
   /unbox-primitive/1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}

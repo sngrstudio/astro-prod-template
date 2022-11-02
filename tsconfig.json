@@ -1,7 +1,9 @@
 {
   "extends": "astro/tsconfigs/strictest",
   "compilerOptions": {
-    "types": ["unplugin-icons/types/react"],
+    "types": ["astro/client", "unplugin-icons/types/react"],
+    "skipLibCheck": true,
+    "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"]
