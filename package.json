@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@astrojs/react": "1.2.2",
-    "astro": "1.5.2",
+    "astro": "1.6.2",
     "astro-icon": "0.7.3",
     "autoprefixer": "10.4.13",
     "daisyui": "2.38.0",
