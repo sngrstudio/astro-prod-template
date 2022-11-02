@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/react': 1.2.1
+  '@astrojs/react': 1.2.2
   astro: 1.5.2
   astro-icon: 0.7.3
   autoprefixer: 10.4.12
@@ -17,7 +17,7 @@ specifiers:
   tailwindcss: 3.2.1
 
 dependencies:
-  '@astrojs/react': 1.2.1_6v6cuqnzjlfigkhgmcz4pxhsva
+  '@astrojs/react': 1.2.2_6v6cuqnzjlfigkhgmcz4pxhsva
   astro: 1.5.2_sass@1.55.0
   astro-icon: 0.7.3
   autoprefixer: 10.4.12_postcss@8.4.18
@@ -121,8 +121,8 @@ packages:
       prismjs: 1.28.0
     dev: false
 
-  /@astrojs/react/1.2.1_6v6cuqnzjlfigkhgmcz4pxhsva:
-    resolution: {integrity: sha512-EoW7coV/35ak1fPoVNrL1OyYGOnJSnRJsgIc8WtkLv5aDrMpviS6+9vmqOHEiJwab8wNh+zSphx8a9nC2Q3zAg==}
+  /@astrojs/react/1.2.2_6v6cuqnzjlfigkhgmcz4pxhsva:
+    resolution: {integrity: sha512-ab9fYvzkC74J7N+M3DWQuZgwu7sYjW0aLO3sEAdCX/jZZz+0BhrqS8m9QjtGJyQK/niF4tgJjpPfadopxKc56g==}
     engines: {node: ^14.18.0 || >=16.12.0}
     peerDependencies:
       '@types/react': ^17.0.50 || ^18.0.21
