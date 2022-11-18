@@ -2,12 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/react': 1.2.2
-  '@fontsource/righteous': ^4.5.7
-  '@iconify/json': ^2.1.132
-  '@svgr/core': ^6.5.1
-  '@tailwindcss/typography': ^0.5.7
-  '@types/node': ^18.11.9
-  '@types/react': ^18.0.24
+  '@fontsource/righteous': 4.5.7
+  '@iconify/json': 2.1.139
+  '@svgr/core': 6.5.1
+  '@tailwindcss/typography': 0.5.8
+  '@types/node': 18.11.9
+  '@types/react': 18.0.25
   astro: 1.6.2
   autoprefixer: 10.4.13
   daisyui: 2.38.0
@@ -19,15 +19,15 @@ specifiers:
   react-dom: 18.2.0
   sass: 1.55.0
   tailwindcss: 3.2.1
-  typescript: ^4.8.4
-  unplugin-icons: ^0.14.13
+  typescript: 4.9.3
+  unplugin-icons: 0.14.13
 
 dependencies:
-  '@astrojs/react': 1.2.2_nsgh7lqw2e2kb5wanadocemtdi
+  '@astrojs/react': 1.2.2_gqczyrwmhlwpr6z64d3xh3wv54
   '@fontsource/righteous': 4.5.7
-  '@iconify/json': 2.1.132
+  '@iconify/json': 2.1.139
   '@svgr/core': 6.5.1
-  '@tailwindcss/typography': 0.5.7_tailwindcss@3.2.1
+  '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.1
   astro: 1.6.2_sass@1.55.0
   autoprefixer: 10.4.13_postcss@8.4.18
   daisyui: 2.38.0_lycaqaeny3mp632atgvyvqdgwe
@@ -35,16 +35,16 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   sass: 1.55.0
-  tailwindcss: 3.2.1
+  tailwindcss: 3.2.1_postcss@8.4.18
   unplugin-icons: 0.14.13_@svgr+core@6.5.1
 
 devDependencies:
   '@types/node': 18.11.9
-  '@types/react': 18.0.24
+  '@types/react': 18.0.25
   npm-run-all: 4.1.5
   prettier: 2.7.1
   prettier-plugin-astro: 0.7.0
-  typescript: 4.8.4
+  typescript: 4.9.3
 
 packages:
 
@@ -148,7 +148,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react/1.2.2_nsgh7lqw2e2kb5wanadocemtdi:
+  /@astrojs/react/1.2.2_gqczyrwmhlwpr6z64d3xh3wv54:
     resolution: {integrity: sha512-ab9fYvzkC74J7N+M3DWQuZgwu7sYjW0aLO3sEAdCX/jZZz+0BhrqS8m9QjtGJyQK/niF4tgJjpPfadopxKc56g==}
     engines: {node: ^14.18.0 || >=16.12.0}
     peerDependencies:
@@ -159,7 +159,7 @@ packages:
     dependencies:
       '@babel/core': 7.19.6
       '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.19.6
-      '@types/react': 18.0.24
+      '@types/react': 18.0.25
       '@types/react-dom': 18.0.8
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -466,8 +466,8 @@ packages:
     resolution: {integrity: sha512-tIDEC1ygwIGiNPToM1XRRU6YqUdQ8S7NzrYNW1gcE1cN9vU7x7zcgNRy8jALjolgdAWJxM78LnEKDUa7mnOPlw==}
     dev: false
 
-  /@iconify/json/2.1.132:
-    resolution: {integrity: sha512-b2ddD44ufErLm18Aku0WNxKzFz1Rvtcb4rOoBtzOyQcttZUawQvE8e/wBHMLhaMRlEn0p4YlVOl6jjj0xmDYJg==}
+  /@iconify/json/2.1.139:
+    resolution: {integrity: sha512-H/DQ/yVgdUk4x4hU696fy0mZOkvLQaR6REQU/okFLgaiIFOS+EWw6GV5JDSKbbkh0YVaxUrAUaqB8XTSFVrFeA==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 0.3.9
@@ -709,8 +709,8 @@ packages:
       - supports-color
     dev: false
 
-  /@tailwindcss/typography/0.5.7_tailwindcss@3.2.1:
-    resolution: {integrity: sha512-JTTSTrgZfp6Ki4svhPA4mkd9nmQ/j9EfE7SbHJ1cLtthKkpW2OxsFXzSmxbhYbEkfNIyAyhle5p4SYyKRbz/jg==}
+  /@tailwindcss/typography/0.5.8_tailwindcss@3.2.1:
+    resolution: {integrity: sha512-xGQEp8KXN8Sd8m6R4xYmwxghmswrd0cPnNI2Lc6fmrC3OojysTBJJGSIVwPV56q4t6THFUK3HJ0EaWwpglSxWw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
@@ -718,7 +718,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.2.1
+      tailwindcss: 3.2.1_postcss@8.4.18
     dev: false
 
   /@types/acorn/4.0.6:
@@ -826,11 +826,11 @@ packages:
   /@types/react-dom/18.0.8:
     resolution: {integrity: sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==}
     dependencies:
-      '@types/react': 18.0.24
+      '@types/react': 18.0.25
     dev: false
 
-  /@types/react/18.0.24:
-    resolution: {integrity: sha512-wRJWT6ouziGUy+9uX0aW4YOJxAY0bG6/AOk5AW5QSvZqI7dk6VBIbXvcVgIw/W5Jrl24f77df98GEKTJGOLx7Q==}
+  /@types/react/18.0.25:
+    resolution: {integrity: sha512-xD6c0KDT4m7n9uD4ZHi02lzskaiqcBxf4zi+tXZY98a04wvc0hi/TcCPC2FOESZi51Nd7tlUeOJY8RofL799/g==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -1018,7 +1018,7 @@ packages:
       strip-ansi: 7.0.1
       supports-esm: 1.0.0
       tsconfig-resolver: 3.0.1
-      typescript: 4.8.4
+      typescript: 4.9.3
       unist-util-visit: 4.1.1
       vfile: 5.3.5
       vite: 3.2.2_sass@1.55.0
@@ -1346,7 +1346,7 @@ packages:
       css-selector-tokenizer: 0.8.0
       postcss: 8.4.18
       postcss-js: 4.0.0_postcss@8.4.18
-      tailwindcss: 3.2.1
+      tailwindcss: 3.2.1_postcss@8.4.18
     transitivePeerDependencies:
       - ts-node
     dev: false
@@ -4278,10 +4278,12 @@ packages:
       tslib: 2.4.1
     dev: true
 
-  /tailwindcss/3.2.1:
+  /tailwindcss/3.2.1_postcss@8.4.18:
     resolution: {integrity: sha512-Uw+GVSxp5CM48krnjHObqoOwlCt5Qo6nw1jlCRwfGy68dSYb/LwS9ZFidYGRiM+w6rMawkZiu1mEMAsHYAfoLg==}
     engines: {node: '>=12.13.0'}
     hasBin: true
+    peerDependencies:
+      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3
@@ -4373,8 +4375,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: false
 
-  /typescript/4.8.4:
-    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+  /typescript/4.9.3:
+    resolution: {integrity: sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
 
