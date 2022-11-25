@@ -8,7 +8,7 @@ specifiers:
   '@tailwindcss/typography': 0.5.8
   '@types/node': 18.11.9
   '@types/react': 18.0.25
-  astro: 1.6.10
+  astro: 1.6.11
   autoprefixer: 10.4.13
   daisyui: 2.42.0
   npm-run-all: 4.1.5
@@ -28,7 +28,7 @@ dependencies:
   '@iconify/json': 2.1.143
   '@svgr/core': 6.5.1
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
-  astro: 1.6.10_ajklay5k626t46b6fyghkbup3i
+  astro: 1.6.11_ajklay5k626t46b6fyghkbup3i
   autoprefixer: 10.4.13_postcss@8.4.19
   daisyui: 2.42.0_2lwn2upnx27dqeg6hqdu7sq75m
   postcss: 8.4.19
@@ -957,8 +957,8 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /astro/1.6.10_ajklay5k626t46b6fyghkbup3i:
-    resolution: {integrity: sha512-W/ZGROkCKsDicpiXB82n8EkY6I0/12wdXS80NGaBdIUR1jZZxdN+0YMmdz+C2kYbjlo45KUsXpC/Tej+5KQYSQ==}
+  /astro/1.6.11_ajklay5k626t46b6fyghkbup3i:
+    resolution: {integrity: sha512-T0xb0U0FOrqXxl87x4mjpufhf0b47RMPIu8WWK+2ODrRZkPj1sr24alh3Y/PLSyiWSqoGZF7xzQ6hzt0jDCyVQ==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
