@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/react': 1.2.2
   '@fontsource/righteous': 4.5.7
-  '@iconify/json': 2.1.142
+  '@iconify/json': 2.1.143
   '@svgr/core': 6.5.1
   '@tailwindcss/typography': 0.5.8
   '@types/node': 18.11.9
@@ -25,7 +25,7 @@ specifiers:
 dependencies:
   '@astrojs/react': 1.2.2_gqczyrwmhlwpr6z64d3xh3wv54
   '@fontsource/righteous': 4.5.7
-  '@iconify/json': 2.1.142
+  '@iconify/json': 2.1.143
   '@svgr/core': 6.5.1
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
   astro: 1.6.10_ajklay5k626t46b6fyghkbup3i
@@ -466,8 +466,8 @@ packages:
     resolution: {integrity: sha512-tIDEC1ygwIGiNPToM1XRRU6YqUdQ8S7NzrYNW1gcE1cN9vU7x7zcgNRy8jALjolgdAWJxM78LnEKDUa7mnOPlw==}
     dev: false
 
-  /@iconify/json/2.1.142:
-    resolution: {integrity: sha512-wTVti6wSp5ofWk7g7vWF+WDmC9ymI4PoNAGHQ0p4cGpNd04bMSS1DB+ptU8n6OqBg2T03kKEqRvG9PqjUiZSGA==}
+  /@iconify/json/2.1.143:
+    resolution: {integrity: sha512-atN7UAsuRgXkXE9MiOh59T2hIkN3ulE6GVbfZjKeYPYdyRpsAgFsLOAMjJ+u6jIzaiZn+rSVwx7m2gQG47sN0A==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 0.3.9
