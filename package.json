@@ -16,10 +16,10 @@
   "dependencies": {
     "@astrojs/react": "1.2.2",
     "@fontsource/righteous": "4.5.7",
-    "@iconify/json": "2.1.144",
+    "@iconify/json": "2.1.146",
     "@svgr/core": "6.5.1",
     "@tailwindcss/typography": "0.5.8",
-    "astro": "1.6.11",
+    "astro": "1.6.12",
     "autoprefixer": "10.4.13",
     "daisyui": "2.42.1",
     "postcss": "8.4.19",
@@ -30,7 +30,7 @@
     "unplugin-icons": "0.14.14"
   },
   "devDependencies": {
-    "@types/node": "18.11.9",
+    "@types/node": "18.11.10",
     "@types/react": "18.0.25",
     "npm-run-all": "4.1.5",
     "prettier": "2.8.0",
