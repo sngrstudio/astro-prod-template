@@ -7,13 +7,6 @@
   command = "pnpm run dev"
   autoLaunch = false
 
-[[plugins]]
-package = "netlify-plugin-minify-html"
-  [plugins.inputs.minifierOptions]
-    collapseWhitespace = true
-    minifyJS = true
-    processScripts = ["module"]
-
 [[headers]]
   for = "/manifest.webmanifest"
   [headers.values]
