@@ -2,15 +2,15 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/react': 1.2.2
-  '@fontsource/unbounded': ^4.5.0
+  '@fontsource/unbounded': 4.5.0
   '@iconify/json': 2.1.153
   '@svgr/core': 6.5.1
   '@tailwindcss/typography': 0.5.8
   '@types/node': 18.11.16
   '@types/react': 18.0.26
-  '@vite-pwa/astro': ^0.0.1
+  '@vite-pwa/astro': 0.0.1
   astro: 1.7.1
-  astro-compress: ^1.1.22
+  astro-compress: 1.1.23
   autoprefixer: 10.4.13
   daisyui: 2.45.0
   postcss: 8.4.20
@@ -20,8 +20,8 @@ specifiers:
   tailwindcss: 3.2.4
   typescript: 4.9.4
   unplugin-icons: 0.14.15
-  vite-plugin-pwa: ^0.14.0
-  workbox-window: ^6.5.4
+  vite-plugin-pwa: 0.14.0
+  workbox-window: 6.5.4
 
 dependencies:
   '@astrojs/react': 1.2.2_yqqa5ithnjtlkxisuaub7c4kpa
@@ -29,7 +29,7 @@ dependencies:
   '@iconify/json': 2.1.153
   '@vite-pwa/astro': 0.0.1
   astro: 1.7.1_k6oqnztktp4dgazaq76kukrvtq
-  astro-compress: 1.1.22
+  astro-compress: 1.1.23
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   unplugin-icons: 0.14.15_@svgr+core@6.5.1
@@ -1644,22 +1644,6 @@ packages:
     resolution: {integrity: sha512-4/RWEeXDO6bocPONheFe6gX/oQdP/bEpv0oL4HqjPP5DCenBSt0mHgahppY49N0CpsaqffdwPq+TlX9CYOq2Dw==}
     dev: false
 
-  /@nikolarhristov/pipeline/0.1.7:
-    resolution: {integrity: sha512-ImQX3HW9VqL6koGyR8zkTUWFGcASiAooULyfN+9IdKyPo1eje0uTe3eogNErzvd2okKYXsrONNwIvpccaywuiA==}
-    dependencies:
-      '@types/csso': 5.0.0
-      '@types/html-minifier-terser': 7.0.0
-      '@types/sharp': 0.31.0
-      critters: 0.0.16
-      csso: 5.0.5
-      deepmerge-ts: 4.2.2
-      fast-glob: 3.2.12
-      html-minifier-terser: 7.1.0
-      sharp: 0.31.2
-      svgo: 3.0.2
-      terser: 5.16.1
-    dev: false
-
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -2214,10 +2198,10 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /astro-compress/1.1.22:
-    resolution: {integrity: sha512-8gcYqN8nOC/JwH6dxcoLHTQQaAQNe7tS/yd4uc3dmO93n684ZdMXuPfr6KvjkQEOTEuYYS/lqkC8gjObVtFN1g==}
+  /astro-compress/1.1.23:
+    resolution: {integrity: sha512-F2oAtIhwEzqZwq168vpI3D3sxFXAIRhh4Do0Sgd55A2ElAhDjPszzw7ZQ7u69D6jrGZjTI3MugZcOC09z707fA==}
     dependencies:
-      '@nikolarhristov/pipeline': 0.1.7
+      files-pipeline: 0.0.1
     dev: false
 
   /astro/1.7.1_k6oqnztktp4dgazaq76kukrvtq:
@@ -3417,6 +3401,22 @@ packages:
     dependencies:
       minimatch: 5.1.1
     dev: true
+
+  /files-pipeline/0.0.1:
+    resolution: {integrity: sha512-QmIYklS5CsQfjOuO2aQYtwD5zvuQlMo7bx6oC9mxQZg7pDKkkKTNfMkRMOsBTSc3xeL1DzyuGVrMQZRAyrqHGA==}
+    dependencies:
+      '@types/csso': 5.0.0
+      '@types/html-minifier-terser': 7.0.0
+      '@types/sharp': 0.31.0
+      critters: 0.0.16
+      csso: 5.0.5
+      deepmerge-ts: 4.2.2
+      fast-glob: 3.2.12
+      html-minifier-terser: 7.1.0
+      sharp: 0.31.2
+      svgo: 3.0.2
+      terser: 5.16.1
+    dev: false
 
   /fill-range/7.0.1:
     resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
