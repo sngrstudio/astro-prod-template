@@ -6,7 +6,7 @@ specifiers:
   '@iconify/json': 2.1.153
   '@svgr/core': 6.5.1
   '@tailwindcss/typography': 0.5.8
-  '@types/node': 18.11.16
+  '@types/node': 18.11.17
   '@types/react': 18.0.26
   '@vite-pwa/astro': 0.0.1
   astro: 1.7.1
@@ -28,7 +28,7 @@ dependencies:
   '@fontsource/unbounded': 4.5.0
   '@iconify/json': 2.1.153
   '@vite-pwa/astro': 0.0.1
-  astro: 1.7.1_k6oqnztktp4dgazaq76kukrvtq
+  astro: 1.7.1_weymykvlyevlx27gnlcyv4bfs4
   astro-compress: 1.1.23
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -37,7 +37,7 @@ dependencies:
 devDependencies:
   '@svgr/core': 6.5.1
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
-  '@types/node': 18.11.16
+  '@types/node': 18.11.17
   '@types/react': 18.0.26
   autoprefixer: 10.4.13_postcss@8.4.20
   daisyui: 2.45.0_r4gnkvssmvyxmi2wmat5xbx36a
@@ -2020,8 +2020,8 @@ packages:
       '@types/unist': 2.0.6
     dev: false
 
-  /@types/node/18.11.16:
-    resolution: {integrity: sha512-6T7P5bDkRhqRxrQtwj7vru+bWTpelgtcETAZEUSdq0YISKz8WKdoBukQLYQQ6DFHvU9JRsbFq0JH5C51X2ZdnA==}
+  /@types/node/18.11.17:
+    resolution: {integrity: sha512-HJSUJmni4BeDHhfzn6nF0sVmd1SMezP7/4F0Lq+aXzmp2xm9O7WXrUtHW/CHlYVtZUbByEvWidHqRtcJXGF2Ng==}
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -2049,7 +2049,7 @@ packages:
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 18.11.16
+      '@types/node': 18.11.17
     dev: true
 
   /@types/resolve/1.20.2:
@@ -2062,7 +2062,7 @@ packages:
   /@types/sharp/0.31.0:
     resolution: {integrity: sha512-nwivOU101fYInCwdDcH/0/Ru6yIRXOpORx25ynEOc6/IakuCmjOAGpaO5VfUl4QkDtUC6hj+Z2eCQvgXOioknw==}
     dependencies:
-      '@types/node': 18.11.16
+      '@types/node': 18.11.17
     dev: false
 
   /@types/trusted-types/2.0.2:
@@ -2204,7 +2204,7 @@ packages:
       files-pipeline: 0.0.1
     dev: false
 
-  /astro/1.7.1_k6oqnztktp4dgazaq76kukrvtq:
+  /astro/1.7.1_weymykvlyevlx27gnlcyv4bfs4:
     resolution: {integrity: sha512-ENfHAm8/zYPgO5G1KJtCzt+hnTJaYdfjYqFWBB9PcBdxlHOOQvOd1zWCVX+uOvwKe8+ASUHXyyyULh3qlB5UUQ==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
@@ -2266,7 +2266,7 @@ packages:
       typescript: 4.9.4
       unist-util-visit: 4.1.1
       vfile: 5.3.6
-      vite: 3.2.5_k6oqnztktp4dgazaq76kukrvtq
+      vite: 3.2.5_weymykvlyevlx27gnlcyv4bfs4
       vitefu: 0.2.4_vite@3.2.5
       yargs-parser: 21.1.1
       zod: 3.20.2
@@ -4042,7 +4042,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 18.11.16
+      '@types/node': 18.11.17
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
@@ -6328,14 +6328,14 @@ packages:
       fast-glob: 3.2.12
       pretty-bytes: 6.0.0
       rollup: 3.7.5
-      vite: 4.0.1_k6oqnztktp4dgazaq76kukrvtq
+      vite: 4.0.1_weymykvlyevlx27gnlcyv4bfs4
       workbox-build: 6.5.4
       workbox-window: 6.5.4
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/3.2.5_k6oqnztktp4dgazaq76kukrvtq:
+  /vite/3.2.5_weymykvlyevlx27gnlcyv4bfs4:
     resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -6360,7 +6360,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.11.16
+      '@types/node': 18.11.17
       esbuild: 0.15.18
       postcss: 8.4.20
       resolve: 1.22.1
@@ -6370,7 +6370,7 @@ packages:
       fsevents: 2.3.2
     dev: false
 
-  /vite/4.0.1_k6oqnztktp4dgazaq76kukrvtq:
+  /vite/4.0.1_weymykvlyevlx27gnlcyv4bfs4:
     resolution: {integrity: sha512-kZQPzbDau35iWOhy3CpkrRC7It+HIHtulAzBhMqzGHKRf/4+vmh8rPDDdv98SWQrFWo6//3ozwsRmwQIPZsK9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -6395,7 +6395,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.11.16
+      '@types/node': 18.11.17
       esbuild: 0.16.8
       postcss: 8.4.20
       resolve: 1.22.1
@@ -6413,7 +6413,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 3.2.5_k6oqnztktp4dgazaq76kukrvtq
+      vite: 3.2.5_weymykvlyevlx27gnlcyv4bfs4
     dev: false
 
   /vscode-css-languageservice/6.2.1:
