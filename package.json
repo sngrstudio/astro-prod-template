@@ -16,17 +16,17 @@
   "dependencies": {
     "@astrojs/react": "1.2.2",
     "@fontsource/unbounded": "4.5.0",
-    "@iconify/json": "2.2.3",
+    "@iconify/json": "2.2.7",
     "@vite-pwa/astro": "0.0.1",
-    "astro": "1.9.1",
-    "astro-compress": "1.1.25",
+    "astro": "1.9.2",
+    "astro-compress": "1.1.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "unplugin-icons": "0.15.1"
   },
   "devDependencies": {
     "@svgr/core": "6.5.1",
-    "@tailwindcss/typography": "0.5.8",
+    "@tailwindcss/typography": "0.5.9",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
     "autoprefixer": "10.4.13",
