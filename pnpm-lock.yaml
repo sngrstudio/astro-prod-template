@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/react': 1.2.2
   '@fontsource/unbounded': 4.5.1
-  '@iconify/json': 2.2.10
+  '@iconify/json': 2.2.13
   '@svgr/core': 6.5.1
   '@tailwindcss/typography': 0.5.9
   '@types/node': 18.11.18
@@ -12,27 +12,27 @@ specifiers:
   astro: 1.9.2
   astro-compress: 1.1.28
   autoprefixer: 10.4.13
-  daisyui: 2.47.0
+  daisyui: 2.49.0
   postcss: 8.4.21
   react: 18.2.0
   react-dom: 18.2.0
   sass: 1.57.1
   tailwindcss: 3.2.4
   typescript: 4.9.4
-  unplugin-icons: 0.15.1
+  unplugin-icons: 0.15.2
   vite-plugin-pwa: 0.14.1
   workbox-window: 6.5.4
 
 dependencies:
   '@astrojs/react': 1.2.2_fxtgt6bjwd6p4cwoordejim2zi
   '@fontsource/unbounded': 4.5.1
-  '@iconify/json': 2.2.10
+  '@iconify/json': 2.2.13
   '@vite-pwa/astro': 0.0.1
   astro: 1.9.2_ovmyjmuuyckt3r3gpaexj2onji
   astro-compress: 1.1.28
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  unplugin-icons: 0.15.1_@svgr+core@6.5.1
+  unplugin-icons: 0.15.2_@svgr+core@6.5.1
 
 devDependencies:
   '@svgr/core': 6.5.1
@@ -40,7 +40,7 @@ devDependencies:
   '@types/node': 18.11.18
   '@types/react': 18.0.27
   autoprefixer: 10.4.13_postcss@8.4.21
-  daisyui: 2.47.0_gbtt6ss3tbiz4yjtvdr6fbrj44
+  daisyui: 2.49.0_gbtt6ss3tbiz4yjtvdr6fbrj44
   postcss: 8.4.21
   sass: 1.57.1
   tailwindcss: 3.2.4_postcss@8.4.21
@@ -1577,8 +1577,8 @@ packages:
     resolution: {integrity: sha512-IDC84Vp89QMe8IYqYufViSJ7jdBjA+yaaqb3b5d1pSc0oJFG5DAQksxIGf1U7cheSB2JDE/aFRztuT5H6/WMmQ==}
     dev: false
 
-  /@iconify/json/2.2.10:
-    resolution: {integrity: sha512-WaAHE6+o2YssA768FRx0a6FdJnW4jYMrVw6eXA8iwucoM+abaGMwxaGderlGS/kovFXCHyV1vViJgW12BPErcg==}
+  /@iconify/json/2.2.13:
+    resolution: {integrity: sha512-TgTGzEhU2o0gGrkke3hVbkVtZB8EcbCdNR4X6ZbXJsApMuFghS4s+yuEbGHw+mMa3sp40L5qRi7wFU6Q47ysfw==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.0.0
@@ -1588,8 +1588,8 @@ packages:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: false
 
-  /@iconify/utils/2.0.11:
-    resolution: {integrity: sha512-oEBZkHpkgySHcMZi80ycoJ+ZdLoJhmbN0+gUK8qNPY79ndus8fBHKPyjjwz5kIvr5U9yiym+xBTTnZOB3m5/Pw==}
+  /@iconify/utils/2.1.0:
+    resolution: {integrity: sha512-ouXv1hQfOKq4k3wxQ2OJBYQ2gXBMeFoUCIiORmuUVUNlSq9oOTzQBF3jpFRb0+/P0bnV+RIoHcbZKufZTlJ16g==}
     dependencies:
       '@antfu/install-pkg': 0.1.1
       '@antfu/utils': 0.7.2
@@ -2729,8 +2729,8 @@ packages:
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
 
-  /daisyui/2.47.0_gbtt6ss3tbiz4yjtvdr6fbrj44:
-    resolution: {integrity: sha512-svZpXKldtHjXTEdj/lu2n7b+EQJSatqvmVB59k4dhCDOYUhUZ3jtGuPrgOJlPysHhDjxjCRWWug/fgV5e8tc/w==}
+  /daisyui/2.49.0_gbtt6ss3tbiz4yjtvdr6fbrj44:
+    resolution: {integrity: sha512-+hEFMupi/7rqkAH4d3iBWj1TXRq73V3PrkJ3HiDqFuQgMoE1/UQOgMoeqaHa3r4IRo4fjMNauwHBA17qT0YSIA==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
@@ -6171,8 +6171,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unplugin-icons/0.15.1_@svgr+core@6.5.1:
-    resolution: {integrity: sha512-d4Gc8A4qIJYIXKueltTwoHfR3Cxsdfnmz8lSN5dsITEyai5tdb0uWpbQkn3j9HUlLDSB1ybdQIf5CItxJT3UDw==}
+  /unplugin-icons/0.15.2_@svgr+core@6.5.1:
+    resolution: {integrity: sha512-oWTTdLMuqfEYfZcko+KZHDEOIsqT4OeyJB1e4U7luCOo9gto/JLyHkqfbqjmjkjdQqA3DNHS18WOKh5esqQM5g==}
     peerDependencies:
       '@svgr/core': '>=5.5.0'
       '@vue/compiler-sfc': ^3.0.2 || ^2.7.0
@@ -6190,7 +6190,7 @@ packages:
     dependencies:
       '@antfu/install-pkg': 0.1.1
       '@antfu/utils': 0.7.2
-      '@iconify/utils': 2.0.11
+      '@iconify/utils': 2.1.0
       '@svgr/core': 6.5.1
       debug: 4.3.4
       kolorist: 1.6.0
