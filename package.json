@@ -14,7 +14,7 @@
     "start": "pnpx npm-run-all -s build preview"
   },
   "dependencies": {
-    "@astrojs/react": "1.2.2",
+    "@astrojs/react": "2.1.1",
     "@fontsource/unbounded": "4.5.1",
     "@iconify/json": "2.2.39",
     "@vite-pwa/astro": "0.0.5",
