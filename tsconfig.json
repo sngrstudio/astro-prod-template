@@ -1,12 +1,3 @@
 {
-  "extends": "astro/tsconfigs/strictest",
-  "compilerOptions": {
-    "types": ["astro/client", "unplugin-icons/types/react"],
-    "skipLibCheck": true,
-    "jsx": "preserve",
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["./src/*"]
-    }
-  }
+  "extends": "astro/tsconfigs/strictest"
 }

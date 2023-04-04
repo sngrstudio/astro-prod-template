@@ -1,6 +1,6 @@
-# The SNGR Studio's [Astro](https://astro.build) Template for Production
+# The Sastronegoro & Co. [Astro](https://astro.build) Template for Production
 
-The template is created using Astro and a pinch of React. Batteries included: SASS, TailwindCSS + DaisyUI, PostCSS with Autoprefixer and Font Magician plugin.
+The template is created using Astro and a pinch of React. Batteries included.
 
 ## Live Example
 
@@ -12,4 +12,4 @@ https://sngrstudio-astro-template.netlify.app/
 
 ## Miscellaneous
 
-This template is created as a base for future SNGR Studio's template for Astro projects.
+This template is created as a base for future Sastronegoro & Co. template for Astro projects.
