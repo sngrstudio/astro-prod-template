@@ -1,0 +1,13 @@
+---
+import BaseLayout from './Base.astro'
+---
+
+<BaseLayout>
+  <main class="container-fluid">
+    <slot />
+  </main>
+</BaseLayout>
+
+<style lang="scss" is:global>
+  @use '../../../node_modules/@picocss/pico/scss/pico.slim.scss';
+</style>
