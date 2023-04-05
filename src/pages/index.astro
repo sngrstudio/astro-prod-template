@@ -1,9 +1,64 @@
 ---
 import Layout from '~/components/layouts/Layout.astro'
+import { SEO } from 'astro-seo'
+import { Image } from 'astro:assets'
+
+import SNGRandCoLogo from '~/assets/sngrco.png'
+import site from '~/site.yml'
+
+const NetlifyDeployURL = 'https://www.netlify.com/img/deploy/button.svg'
 ---
 
 <Layout>
-  <section>
-    <h1>slebew</h1>
+  <SEO title={site.title} description={site.description} slot="head" />
+
+  <section class="container index">
+    <article>
+      <h1>{site.title}</h1>
+      <p>
+        <a href="/deploy" target="_blank">
+          <Image
+            src={NetlifyDeployURL}
+            width={240}
+            height={56}
+            alt="Deploy to Netlify"
+          />
+        </a>
+      </p>
+      <p>
+        <a href="/website">
+          <Image src={SNGRandCoLogo} width={160} alt="Logo" />
+        </a>
+      </p>
+    </article>
   </section>
 </Layout>
+
+<style lang="scss">
+  .index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    margin: 0 auto;
+    padding: 0 0.75rem;
+
+    article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    h1 {
+      margin: 0;
+      text-align: center;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+</style>

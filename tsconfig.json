@@ -1,6 +1,7 @@
 {
   "extends": "astro/tsconfigs/strictest",
   "compilerOptions": {
+    "types": ["@modyfi/vite-plugin-yaml/modules"],
     "jsx": "react-jsx",
     "jsxImportSource": "react",
     "baseUrl": ".",

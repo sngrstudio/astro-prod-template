@@ -1,13 +1,25 @@
 ---
 import BaseLayout from './Base.astro'
+import Icons from '../site/Icons.astro'
 ---
 
 <BaseLayout>
-  <main class="container-fluid">
+  <Fragment slot="head">
+    <Icons />
+    <slot name="head" />
+  </Fragment>
+
+  <main class="main">
     <slot />
   </main>
 </BaseLayout>
 
 <style lang="scss" is:global>
   @use '../../../node_modules/@picocss/pico/scss/pico.slim.scss';
+</style>
+
+<style lang="scss">
+  .main {
+    padding: 0;
+  }
 </style>
