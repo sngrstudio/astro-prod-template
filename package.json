@@ -14,14 +14,14 @@
     "start": "pnpm dlx npm-run-all -s build preview"
   },
   "dependencies": {
-    "@modyfi/vite-plugin-yaml": "^1.0.4",
-    "@picocss/pico": "^1.5.7",
-    "astro": "^2.1.9",
-    "astro-compress": "^1.1.35",
-    "astro-critters": "^1.1.31",
-    "astro-seo": "^0.7.2",
-    "sass": "^1.60.0",
-    "sharp": "^0.32.0",
-    "typescript": "^5.0.3"
+    "@modyfi/vite-plugin-yaml": "1.0.4",
+    "@picocss/pico": "1.5.7",
+    "astro": "2.1.9",
+    "astro-compress": "1.1.35",
+    "astro-critters": "1.1.31",
+    "astro-seo": "0.7.2",
+    "sass": "1.60.0",
+    "sharp": "0.32.0",
+    "typescript": "5.0.3"
   }
 }
