@@ -8,8 +8,8 @@ dependencies:
     specifier: 1.5.9
     version: 1.5.9
   astro:
-    specifier: 2.2.1
-    version: 2.2.1(sass@1.61.0)(sharp@0.32.0)
+    specifier: 2.2.2
+    version: 2.2.2(sass@1.62.0)(sharp@0.32.0)
   astro-compress:
     specifier: 1.1.35
     version: 1.1.35
@@ -20,8 +20,8 @@ dependencies:
     specifier: 0.7.2
     version: 0.7.2
   sass:
-    specifier: 1.61.0
-    version: 1.61.0
+    specifier: 1.62.0
+    version: 1.62.0
   sharp:
     specifier: 0.32.0
     version: 0.32.0
@@ -65,13 +65,13 @@ packages:
       vscode-uri: 3.0.7
     dev: false
 
-  /@astrojs/markdown-remark@2.1.3(astro@2.2.1):
+  /@astrojs/markdown-remark@2.1.3(astro@2.2.2):
     resolution: {integrity: sha512-Di8Qbit9p7L7eqKklAJmiW9nVD+XMsNHpaNzCLduWjOonDu9fVgEzdjeDrTVCDtgrvkfhpAekuNXrp5+w4F91g==}
     peerDependencies:
       astro: ^2.2.0
     dependencies:
       '@astrojs/prism': 2.1.1
-      astro: 2.2.1(sass@1.61.0)(sharp@0.32.0)
+      astro: 2.2.2(sass@1.62.0)(sharp@0.32.0)
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.2
       rehype-raw: 6.1.1
@@ -619,7 +619,7 @@ packages:
       '@rollup/pluginutils': 5.0.2
       js-yaml: 4.1.0
       tosource: 2.0.0-alpha.3
-      vite: 4.2.1(sass@1.61.0)
+      vite: 4.2.1(sass@1.62.0)
     transitivePeerDependencies:
       - rollup
     dev: false
@@ -887,8 +887,8 @@ packages:
     resolution: {integrity: sha512-YnSqj4E6vbF7wRk3gcxOPHBjenhfgaINEJlTsnu4sovAyfyGEdQksbioYKoZ+vERRDaYvEricfSzC6fc9lieww==}
     dev: false
 
-  /astro@2.2.1(sass@1.61.0)(sharp@0.32.0):
-    resolution: {integrity: sha512-yYPRzh3su38bi3VBCKmYAUBkQSaFQMKFsu8JAVDzFRoGLbskJ/6JkDX2abSB9/iRug8GAKaH/FWxXOTzIsSQ7Q==}
+  /astro@2.2.2(sass@1.62.0)(sharp@0.32.0):
+    resolution: {integrity: sha512-RmV/UiOW3losWRbR8CeFDFDtjBOdFdBTEccXF9sT/ZxLz7T9SglevtOHgKwTSRPgUM9c0LteFDFcHDY3OYBgDg==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
     peerDependencies:
@@ -899,7 +899,7 @@ packages:
     dependencies:
       '@astrojs/compiler': 1.3.1
       '@astrojs/language-server': 0.28.3
-      '@astrojs/markdown-remark': 2.1.3(astro@2.2.1)
+      '@astrojs/markdown-remark': 2.1.3(astro@2.2.2)
       '@astrojs/telemetry': 2.1.0
       '@astrojs/webapi': 2.1.0
       '@babel/core': 7.21.4
@@ -947,7 +947,7 @@ packages:
       typescript: 5.0.4
       unist-util-visit: 4.1.2
       vfile: 5.3.7
-      vite: 4.2.1(sass@1.61.0)
+      vite: 4.2.1(sass@1.62.0)
       vitefu: 0.2.4(vite@4.2.1)
       yargs-parser: 21.1.1
       zod: 3.21.4
@@ -2985,8 +2985,8 @@ packages:
       suf-log: 2.5.3
     dev: false
 
-  /sass@1.61.0:
-    resolution: {integrity: sha512-PDsN7BrVkNZK2+dj/dpKQAWZavbAQ87IXqVvw2+oEYI+GwlTWkvbQtL7F2cCNbMqJEYKPh1EcjSxsnqIb/kyaQ==}
+  /sass@1.62.0:
+    resolution: {integrity: sha512-Q4USplo4pLYgCi+XlipZCWUQz5pkg/ruSSgJ0WRDSb/+3z9tXUOkQ7QPYn4XrhZKYAK4HlpaQecRwKLJX6+DBg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -3494,7 +3494,7 @@ packages:
       vfile-message: 3.1.4
     dev: false
 
-  /vite@4.2.1(sass@1.61.0):
+  /vite@4.2.1(sass@1.62.0):
     resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3523,7 +3523,7 @@ packages:
       postcss: 8.4.21
       resolve: 1.22.1
       rollup: 3.20.2
-      sass: 1.61.0
+      sass: 1.62.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: false
@@ -3536,7 +3536,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.2.1(sass@1.61.0)
+      vite: 4.2.1(sass@1.62.0)
     dev: false
 
   /vscode-css-languageservice@6.2.4:
