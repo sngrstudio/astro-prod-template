@@ -5,17 +5,17 @@ dependencies:
     specifier: 1.0.4
     version: 1.0.4(vite@4.2.1)
   '@picocss/pico':
-    specifier: 1.5.9
-    version: 1.5.9
+    specifier: 1.5.10
+    version: 1.5.10
   astro:
     specifier: 2.3.0
     version: 2.3.0(sass@1.62.0)(sharp@0.32.0)
   astro-compress:
-    specifier: 1.1.39
-    version: 1.1.39
+    specifier: 1.1.40
+    version: 1.1.40
   astro-critters:
-    specifier: 1.1.32
-    version: 1.1.32
+    specifier: 1.1.33
+    version: 1.1.33
   astro-seo:
     specifier: 0.7.2
     version: 0.7.2
@@ -645,8 +645,8 @@ packages:
       fastq: 1.15.0
     dev: false
 
-  /@picocss/pico@1.5.9:
-    resolution: {integrity: sha512-zgckSi9Fy2LQ+OIEGo/o7hZzgCf28ldRb2k/wrWV1Y/7LHNMYilc5Z2MbQBb1cvO8U2a94vSF8jh80HQNFLwdg==}
+  /@picocss/pico@1.5.10:
+    resolution: {integrity: sha512-+LafMsrwPxXQMk6sI///TmSInCwwZmq+K7SikyL3N/4GhhwzyPC+TQLUEqmrLyjluR+uIpFFcqjty30Rtr6GxQ==}
     dev: false
 
   /@pkgr/utils@2.3.1:
@@ -862,25 +862,25 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro-compress@1.1.39:
-    resolution: {integrity: sha512-ypMe3YoWl99KsxfUmOpguir1wpZbPKMTFTrfpD8Ny1eGTr/H8kDrFyIEw5QIk+WGQThUKopPnWQPAKmnti/BrA==}
+  /astro-compress@1.1.40:
+    resolution: {integrity: sha512-ZYCofKCMtLrXmjNIfeZ+PhPjQkcAVJCJ9HPZe+amlyUtc+WCLov86dbpwWhDlfW3yeHbG2iV3UnE0zG60u8iOA==}
     dependencies:
       '@types/csso': 5.0.0
       '@types/html-minifier-terser': 7.0.0
       '@types/sharp': 0.31.1
       csso: 5.0.5
-      files-pipe: 0.0.2
+      files-pipe: 0.0.3
       html-minifier-terser: 7.2.0
       sharp: 0.32.0
       svgo: 3.0.2
       terser: 5.17.1
     dev: false
 
-  /astro-critters@1.1.32:
-    resolution: {integrity: sha512-8IKeHW+xSYcpubDVRBLSazVyM0TDEUWjC5Us4Rkp5gRcB0dJrNuCN0htJBlzNvPtjyw0JlQvrayTsFsQRoqvSQ==}
+  /astro-critters@1.1.33:
+    resolution: {integrity: sha512-I61lx1hegwpH8xEWJQs7BFVUbFwelNDT+kA1o7LaNzDojib8q6tQ8qHo4sGrWf+0W5p65fk6xAIhd2UzkzNe9Q==}
     dependencies:
       critters: 0.0.16
-      files-pipe: 0.0.2
+      files-pipe: 0.0.3
     dev: false
 
   /astro-seo@0.7.2:
@@ -1585,8 +1585,8 @@ packages:
       reusify: 1.0.4
     dev: false
 
-  /files-pipe@0.0.2:
-    resolution: {integrity: sha512-KypLRoASuRfRjtoBDt+6zPRqcifianKmcG63kkm0DXiyjujZ7N6QU1affT0LC455GHk060twOM+yIUM/OQwhMA==}
+  /files-pipe@0.0.3:
+    resolution: {integrity: sha512-6yWKK5MhB8U38HxYtudRXHA/2ssyQ77xvG7AgLGGj8Gf+jySkKUi51mO5PrJTBZLRhnYnXbfAWfMprAb6E7fAA==}
     dependencies:
       deepmerge-ts: 5.1.0
       fast-glob: 3.2.12
