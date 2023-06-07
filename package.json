@@ -16,8 +16,8 @@
   "dependencies": {
     "@modyfi/vite-plugin-yaml": "1.0.4",
     "@picocss/pico": "1.5.10",
-    "astro": "2.5.7",
-    "astro-seo": "0.7.2",
+    "astro": "2.6.1",
+    "astro-seo": "0.7.4",
     "sass": "1.62.1",
     "sharp": "0.32.1",
     "typescript": "5.1.3"
