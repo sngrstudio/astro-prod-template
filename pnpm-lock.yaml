@@ -15,8 +15,8 @@ dependencies:
     specifier: 2.10.14
     version: 2.10.14(sass@1.66.1)(sharp@0.32.5)
   astro-seo:
-    specifier: 0.7.6
-    version: 0.7.6
+    specifier: 0.8.0
+    version: 0.8.0
   sass:
     specifier: 1.66.1
     version: 1.66.1
@@ -1021,8 +1021,8 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro-seo@0.7.6:
-    resolution: {integrity: sha512-2ZzarN0S/TefrFscIgjLruItw54f7jdP9sbIHjrnna5YvhUsHfn166GPVHjYM8KY0FFp/O5niHx5TVDgkCtWEw==}
+  /astro-seo@0.8.0:
+    resolution: {integrity: sha512-7gq6lhibCM8FuzZIJlbLLWP5EJ9KL2/4XqeFrAg9O6ZK2xMFxJ5ubKf+a0VJwwTu8W8Xr421CmpiXu6Hq7n/7Q==}
     dev: false
 
   /astro@2.10.14(sass@1.66.1)(sharp@0.32.5):
