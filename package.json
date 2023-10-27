@@ -18,7 +18,7 @@
     "@picocss/pico": "1.5.10",
     "astro": "2.10.15",
     "astro-seo": "0.8.0",
-    "sass": "1.69.4",
+    "sass": "1.69.5",
     "sharp": "0.32.6",
     "typescript": "5.2.2"
   }
