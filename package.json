@@ -14,12 +14,12 @@
     "start": "pnpm dlx npm-run-all -s build preview"
   },
   "dependencies": {
-    "@modyfi/vite-plugin-yaml": "1.0.4",
-    "@picocss/pico": "1.5.10",
+    "@modyfi/vite-plugin-yaml": "1.1.0",
+    "@picocss/pico": "1.5.12",
     "astro": "2.10.15",
-    "astro-seo": "0.8.0",
-    "sass": "1.69.5",
-    "sharp": "0.33.1",
+    "astro-seo": "0.8.2",
+    "sass": "1.71.1",
+    "sharp": "0.33.2",
     "typescript": "5.3.3"
   }
 }
